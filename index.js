@@ -19,11 +19,11 @@ const startingBalance = (10000 / 16500);
 const percentRisk = 1;
 console.log(startingBalance)
 
-async function calculateUnit(n) {
+function calculateUnit(n) {
   const equityPerUnit = startingBalance * (1/100);
   const assumedRisk = 2 * n; // instrument volatility
   const unitSize = equityPerUnit / assumedRisk;
-  return Promise.resolve(unitSize);
+  return unitSize;
 }
 
 csv({
