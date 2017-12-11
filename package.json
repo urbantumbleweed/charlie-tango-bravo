@@ -1,0 +1,16 @@
+{
+  "name": "crypto-trader",
+  "version": "0.0.1",
+  "description": "trading bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stephen Saunders",
+  "license": "MIT",
+  "dependencies": {
+    "csvtojson": "^1.1.9",
+    "lodash": "^4.17.4",
+    "talib": "^1.0.3"
+  }
+}
